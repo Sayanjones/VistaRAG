@@ -135,4 +135,4 @@ Set these in `.env`:
 
 ## License
 
-MIT. See `LICENSE` (swap in your name).
+MIT. See `LICENSE` (Sayan HM).
