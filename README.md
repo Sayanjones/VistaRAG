@@ -1,4 +1,4 @@
-# Tour Guide AI Assistant
+# VistaRAG: Tour Guide AI Assistant
 
 Upload a photo of a landmark, then ask questions about it.
 
