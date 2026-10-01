@@ -4,8 +4,6 @@ Upload a photo of a landmark, then ask questions about it.
 
 The app figures out which landmark you're looking at by comparing your photo to a small set of reference images. Once it knows, it searches a few text files about that landmark and has an OpenAI model write the answer using only what it found there.
 
-This is a rebuild of the project from [computervisioneng's tutorial repo](https://github.com/computervisioneng/rag-web-app-python-chromadb-openai-streamlit) and its [YouTube walkthrough](https://www.youtube.com/watch?v=_y_QS_RfR9A), with a few fixes (see the end).
-
 ## How it works
 
 1. **Recognize the photo.** Reference images are turned into vectors with a pretrained ResNet (via `img2vec_pytorch`) and stored in ChromaDB. Your upload gets the same treatment, and the closest reference image decides the landmark.
