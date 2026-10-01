@@ -1,0 +1,9 @@
+chromadb>=1.0.0
+openai>=1.50.0
+streamlit>=1.40.0
+pillow
+numpy
+img2vec_pytorch
+langchain-text-splitters
+python-dotenv
+pysqlite3-binary; sys_platform == "linux"
